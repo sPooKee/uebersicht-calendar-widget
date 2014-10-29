@@ -56,7 +56,7 @@ render: (output) -> """
 
 update: (output, domEl) ->
 
-  today = new Date((new Date()).toLocaleDateString())
+  today = new Date()
 
   if this.currentDate != null && this.currentDate == today
     return
